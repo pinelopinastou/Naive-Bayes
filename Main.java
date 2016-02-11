@@ -36,7 +36,7 @@ public class Main{
 			//Dataset is ready
 				
 		
-		NaiveBayers NB = new NaiveBayers();
+		NaiveBayes NB = new NaiveBayes();
 		NB.train(TrainingMushrooms);
 		//Testing new data
 		
